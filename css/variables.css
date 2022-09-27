@@ -1,0 +1,43 @@
+@font-face {
+  font-family: charter;
+  src: url('../fonts/charter-regular.otf');
+  font-family: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: charter;
+  src: url('../fonts/charter-bold.otf');
+  font-family: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: charter;
+  src: url('../fonts/charter-italic.otf');
+  font-family: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: charter;
+  src: url('../fonts/charter-bold-italic.otf');
+  font-family: italic;
+  font-weight: 700;
+}
+
+:root {
+  font-size: 18px;
+
+  --gray60: #000000;
+  --gray40: #251F24;
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
+  --gray05: #A5A3A5;
+  --gray00: #ffffff;
+  --yellow10: #FEC62E;
+  --blue20: #B8C1EC;
+  --blue10: #232946;
+  --pink10: #D4939D;
+}
